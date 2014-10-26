@@ -12,15 +12,19 @@ Also both the test and train datasets were individually loaded and combined (i.e
 with ytrain. 
 
 *activity_labels.txt...> activity
+
 *features.txt..........> features
 
 *X_test.txt............> xtest
+
 *y_test.txt............> ytest
 
 *X_train.txt...........> xtrain
+
 *y_train.txt...........> ytrain
 
 *subject_test.txt .....> subject_test
+
 *subject_train.txt.....> subject_train
 
 
@@ -44,7 +48,6 @@ which affects the syntax of R.
 
 
 ###4.Creating a second tidy data set
-Finally,  dataset is "melt"from the dataframe (meanstd) to a tempoarary dataframe in order to "cast" it to a new dataset "tidy"
-accordiing to the mean of each variable for each activity and each subject_id, thus each row provided the means for a specific subject in a specific activity.
+Finally,  dataset is "melt"from the dataframe (meanstd) to a tempoarary dataframe in order to "cast" it to a new dataset "tidy", accordiing to the mean of each variable for each activity and each subject_id, thus each row provided the means for a specific subject in a specific activity.
 
 ################ End of readme.MD ############################################ 
