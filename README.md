@@ -6,7 +6,7 @@ This script requires reshape2 package and I had included in the script to check 
 not have it.  The script was structured into the following sectionss:
 
 
-##1. loading the original datasets:## 
+##1. Loading the original datasets:## 
 The activitie_labels.txt and features.txt are both loaded as they will form the names of the varaiables.
 Also both the test and train datasets were individually loaded and combined (i.e xtest combined with ytest and xtrain combined 
 with ytrain. 
@@ -35,7 +35,7 @@ In thissection, the use of greb to extract only those variables that contain the
 their names. The result is stored in a dataframe:  meanstd
 
 
-###3 removing unnecesary symbols in the names of the variables###
+###3 Removing unnecesary symbols in the names of the variables###
 In this section, the names of the variables from the data frame "dfxy" are transformed in a way to get then free 
 of some characters that are not desireble, such as (), - , which may cuase programming issues in future. 
 
@@ -43,8 +43,8 @@ Also, the uppercases are changed into lower cases so that one need not have to r
 which affects the syntax of R.
 
 
-###4.creating a second tidy data set###
+###4.Creating a second tidy data set###
 Finally,  dataset is "melt"from the dataframe (meanstd) to a tempoarary dataframe in order to "cast" it to a new dataset "tidy"
 accordiing to the mean of each variable for each activity and each subject_id, thus each row provided the means for a specific subject in a specific activity.
 
-################ end of readme.MD ############################################ 
+################ End of readme.MD ############################################ 
